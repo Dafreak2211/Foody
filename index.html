@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Foody</title>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div class="container">
+          <div class="nav__logo">
+            <img src="./images/Logo.png" alt="logo" />
+          </div>
+          <div class="nav__menu">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#" class="nav__link" id="welcome-link" data="welcome">
+                  Welcome</a
+                >
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link" id="menu-link" data="menu">
+                  Menu</a
+                >
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link" id="video-link" data="video">
+                  Video tour</a
+                >
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link" id="contact-link" data="contact">
+                  Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="nav__icons">
+            <a href="#" class="nav__icon">
+              <img src="./images/Facebook.png" alt="twitter" />
+            </a>
+            <a href="#" class="nav__icon">
+              <img src="./images/Twitter.png" alt="twitter" />
+            </a>
+            <a href="#" class="nav__icon">
+              <img src="./images/Instagram.png" alt="instagram" />
+            </a>
+          </div>
+          <div class="nav__toggle">
+            O
+          </div>
+        </div>
+        <!-- Mobile Nav -->
+        <div class="mobile-nav__menu">
+          <ul class="nav__list">
+            <li
+              class="nav__item"
+              id="welcome-link__mobile"
+              data="welcomeMobile"
+            >
+              <a href="#" class="nav__link"> Welcome</a>
+            </li>
+            <li class="nav__item" id="menu-link__mobile" data="menuMobile">
+              <a href="#" class="nav__link"> Menu</a>
+            </li>
+            <li class="nav__item" id="video-link__mobile" data="videoMobile">
+              <a href="#" class="nav__link"> Video tour</a>
+            </li>
+            <li
+              class="nav__item"
+              id="contact-link__mobile"
+              data="contactMobile"
+            >
+              <a href="#" class="nav__link"> Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- END NAV -->
+      <div class="herobg">
+        <div class="herobg__content">
+          <h1 class="herobg__title animated fadeInLeft">
+            It's a Food Adventure.
+          </h1>
+          <div class="herobg__line seperator animated fadeInLeft">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <p class="herobg__text animated fadeInLeft delay-0.8s">
+            You'll Never Put A Better Bit Of Food On Your Knife.
+          </p>
+          <a href="#" class="herobg__btn btn animated fadeInLeft">Our menu</a>
+        </div>
+      </div>
+    </header>
+    <!-- END HEADER -->
+    <main>
+      <section class="story animated bounceInLeft">
+        <div class="story__floating">
+          <div class="story__image">
+            <img src="./images/story.jpg" alt="story" />
+          </div>
+          <div class="story__text">
+            <h3 class="story__title">Story Of Us</h3>
+            <div class="story__dashed seperator">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <p class="story__paragraph">
+              Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras
+              ultricies ligula sed magna dictum porta. Donec sollicitudin
+              molestie malesuada.
+            </p>
+            <a href="#" class="story__btn btn">More</a>
+          </div>
+        </div>
+      </section>
+      <!-- END STORY -->
+      <section class="intersection">
+        <quote class="intersection__quote"
+          >“THE MOST ROMANTIC RESTAURANT OUT THERE”</quote
+        >
+        <p class="intersection__paragraph">John Doe</p>
+      </section>
+      <!-- END INTERSECTION -->
+      <section class="menu" id="menu-view">
+        <h3 class="section-heading">
+          We Present You Our Menu
+        </h3>
+        <div class="container">
+          <div
+            class="menu-grid"
+            data-aos="slide-right"
+            data-aos-duration="1000"
+          >
+            <div class="menu-grid__box">
+              <img
+                src="./images/french-fries-and-fresh-bacon-burger_free_stock_photos_picjumbo_DSC03830-1080x720.jpg"
+                alt="grey"
+              />
+            </div>
+            <div class="menu-grid__box color">
+              <p class="menu-grid__name">Pizza Margarita</p>
+              <p class="menu-grid__desc">
+                Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+                Cras ultricies ligula.
+              </p>
+              <p class="menu-grid__price">19,99$</p>
+            </div>
+            <div class="menu-grid__box">
+              <img
+                src="./images/gourmet-cheese-plate-free-photo-1080x720.jpg"
+                alt="grey"
+              />
+            </div>
+            <div class="menu-grid__box color">
+              <p class="menu-grid__name">Pizza Margarita</p>
+              <p class="menu-grid__desc">
+                Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+                Cras ultricies ligula.
+              </p>
+              <p class="menu-grid__price">19,99$</p>
+            </div>
+            <!-- END MENU GRID 1 -->
+
+            <div class="menu-grid__box color">
+              <p class="menu-grid__name">Pizza Margarita</p>
+              <p class="menu-grid__desc">
+                Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+                Cras ultricies ligula.
+              </p>
+              <p class="menu-grid__price">19,99$</p>
+            </div>
+            <div class="menu-grid__box">
+              <img src="./images/healthy-food-party-1080x720.jpg" alt="grey" />
+            </div>
+
+            <div class="menu-grid__box color">
+              <p class="menu-grid__name">Pizza Margarita</p>
+              <p class="menu-grid__desc">
+                Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+                Cras ultricies ligula.
+              </p>
+              <p class="menu-grid__price">19,99$</p>
+            </div>
+            <div class="menu-grid__box">
+              <img
+                src="./images/homemade-fresh-hamburger-at-friends-party-1080x720.jpg"
+                alt="grey"
+              />
+            </div>
+            <!-- END MENU GRID 2 -->
+            <div class="menu-grid__box">
+              <img
+                src="./images/pouring-prosecco-into-picnic-glasses-1080x720.jpg"
+                alt="grey"
+              />
+            </div>
+            <div class="menu-grid__box color">
+              <p class="menu-grid__name ">Pizza Margarita</p>
+              <p class="menu-grid__desc">
+                Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+                Cras ultricies ligula.
+              </p>
+              <p class="menu-grid__price">19,99$</p>
+            </div>
+
+            <div class="menu-grid__box ">
+              <img
+                src="./images/quattro-formaggi-pizza-free-photo-1080x720.jpg"
+                alt="grey"
+              />
+            </div>
+            <div class="menu-grid__box color">
+              <p class="menu-grid__name">Pizza Margarita</p>
+              <p class="menu-grid__desc">
+                Quisque velit nisi, pretium ut lacinia in, elementum id enim.
+                Cras ultricies ligula.
+              </p>
+              <p class="menu-grid__price">19,99$</p>
+            </div>
+            <!-- END MENU GRID 3 -->
+          </div>
+          <h3 class="section-heading">Show Me More</h3>
+          <div class="down">
+            <img src="./images/down.png" alt="down" />
+          </div>
+        </div>
+      </section>
+      <!-- END MENU -->
+
+      <section class="play" id="video-view">
+        <p class="play__paragraph">See it for yourself</p>
+        <img src="./images/play.png" alt="play" class="play__play" />
+      </section>
+      <!-- END PLAY -->
+
+      <section class="newsletter">
+        <h3 class="section-heading">Stay up to date</h3>
+        <p class="section-paragraph">
+          Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras
+          ultricies ligula sed magna dictum porta. Donec sollicitudin molestie
+          malesuada.
+        </p>
+        <form action="" class="newsletter__form">
+          <input
+            type="text"
+            class="newsletter__input"
+            placeholder="Email Address"
+          />
+          <button>Subscribe</button>
+        </form>
+        <div class="container">
+          <div class="newsletter__images" data-aos="fade-in">
+            <div class="newsletter__image">
+              <img src="./images/black-burger-1080x720.jpg" alt="nearbottom1" />
+            </div>
+            <div class="newsletter__image">
+              <img
+                src="./images/yummy-macaron-free-photo-DSC08347-1080x720.jpg"
+                alt="nearbottom2"
+              />
+            </div>
+            <div class="newsletter__image">
+              <img
+                src="./images/homemade-fresh-hamburger-at-friends-party-1080x720.jpg"
+                alt="nearbottom3"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- END NEWSLETTER -->
+      <footer class="footer" id="contact-view">
+        <div class="footer__info">
+          <div class="container">
+            <div class="left">
+              <h3 class="footer__title">
+                Locations
+              </h3>
+              <div class="footer__text">
+                <div class="footer__column">
+                  <p>678 Some Awesome</p>
+                  <p>Brooklyn,NY -112233</p>
+                </div>
+                <div class="footer__column">
+                  <p>678 Some Awesome</p>
+                  <p>Brooklyn,NY -112233</p>
+                </div>
+              </div>
+            </div>
+            <div class="right">
+              <h3 class="footer__title">
+                Hours
+              </h3>
+              <div class="footer__text">
+                <div class="footer__column">
+                  <p>Monday - Thursday</p>
+                  <p>08:00am - 11:00pm</p>
+                </div>
+                <div class="footer__column">
+                  <p>Friday - Saturday</p>
+                  <p>08:00am - 12:00pm</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          <div class="container">
+            <p>Copyright 2017 © Foody - All Rights Reserved</p>
+            <div class="footer__icons">
+              <a href="#" class="footer__icon">
+                <img src="./images/Facebook.png" alt="twitter" />
+              </a>
+              <a href="#" class="footer__icon">
+                <img src="./images/Twitter.png" alt="twitter" />
+              </a>
+              <a href="#" class="footer__icon">
+                <img src="./images/Instagram.png" alt="instagram" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
